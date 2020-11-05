@@ -13,12 +13,12 @@ We will always try to keep this repostitory as up to date as possible compared t
 
 To compile SWAT+ yourself:
 
-1.
+1. Clone the repository:
 ```
 git clone https://github.com/dhardestylewis/swatplus_predocker.git swatplus.git
 cd swatplus.git
 ```
-2.
+2. Set the environment, compile, and install:
 ```
 export LD_LIBRARY_PATH=/path/to/parent_directory_of_libjson-c.so.5:$LD_LIBRARY_PATH
 mkdir build

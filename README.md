@@ -10,4 +10,22 @@ This repository is a fork of the official SWAT+ one available [here](https://bit
 We will always try to keep this repostitory as up to date as possible compared to the main SWAT+ code. Pull requests are welcome!
 
 ## How to compile
-To compile SWAT+ yourself on Ubuntu, follow the [Dockerfile](https://hub.docker.com/r/dhardestylewis/swatplus_docker/dockerfile). The procedure on CentOS, other Linux, or MacOS is equivalent.
+
+To compile SWAT+ yourself:
+
+1.
+```
+git clone https://github.com/dhardestylewis/swatplus_predocker.git swatplus.git
+cd swatplus.git
+```
+2.
+```
+export LD_LIBRARY_PATH=/path/to/parent_directory_of_libjson-c.so.5:$LD_LIBRARY_PATH
+mkdir build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/path/to/local_install_directory ../
+cmake --build . --target install
+```
+
+`libjson-c` may not be installed until you attempt to build and install SWAT+ using `cmake`. If that's the case, simply repeat the steps of the 2nd codeblock above.
+
+If you have trouble compiling and installing SWAT+, you may refer to this [Dockerfile](https://hub.docker.com/r/dhardestylewis/swatplus_docker/dockerfile).

@@ -26,6 +26,6 @@ cmake -DCMAKE_INSTALL_PREFIX:PATH=/path/to/local_install_directory ../
 cmake --build . --target install
 ```
 
-`libjson-c` may not be installed until you attempt to build and install SWAT+ using `cmake`. If that's the case, simply repeat the steps of the 2nd codeblock above.
+`libjson-c` may not be installed until you attempt to build and install SWAT+ using `cmake`. If that's the case, simply repeat the steps of the 2nd codeblock above, substituting the newly intalled location of libjson-c in LD_LIBRARY_PATH
 
 If you have trouble compiling and installing SWAT+, you may refer to this [Dockerfile](https://hub.docker.com/r/dhardestylewis/swatplus_docker/dockerfile).

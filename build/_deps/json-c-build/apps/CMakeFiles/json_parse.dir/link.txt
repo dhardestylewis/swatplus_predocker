@@ -1,0 +1,1 @@
+/bin/cc -g  -rdynamic CMakeFiles/json_parse.dir/json_parse.c.o  -o json_parse  -Wl,-rpath,/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-build ../libjson-c.so.5.1.0 

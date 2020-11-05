@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/CMakeFiles/json-c-populate"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/CMakeFiles/json-c-populate.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/CMakeFiles/json-c-populate-complete.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-install.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-mkdir.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-download.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-update.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-patch.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-configure.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-build.rule"
+		},
+		{
+			"file" : "/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-subbuild/json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-c-populate"
+		],
+		"name" : "json-c-populate"
+	}
+}

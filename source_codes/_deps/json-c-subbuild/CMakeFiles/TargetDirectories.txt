@@ -1,0 +1,3 @@
+/scratch/04950/dhl/SWAT/swatplus_predocker/source_codes/_deps/json-c-subbuild/CMakeFiles/rebuild_cache.dir
+/scratch/04950/dhl/SWAT/swatplus_predocker/source_codes/_deps/json-c-subbuild/CMakeFiles/edit_cache.dir
+/scratch/04950/dhl/SWAT/swatplus_predocker/source_codes/_deps/json-c-subbuild/CMakeFiles/json-c-populate.dir

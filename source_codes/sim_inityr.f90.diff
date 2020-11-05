@@ -1,0 +1,19 @@
+--- sim_inityr.f90.orig	2020-11-05 12:43:35.000000000 -0600
++++ sim_inityr.f90	2020-11-05 12:45:57.000000000 -0600
+@@ -16,12 +16,13 @@
+ 
+ !!    ~ ~ ~ ~ ~ ~ END SPECIFICATIONS ~ ~ ~ ~ ~ ~
+ 
+-      use hru_module, only : lai_yrmx
++      !!use hru_module, only : lai_yrmx
+       
+       implicit none
+ 
+       !! initialize variables/arrays at beginning of every year
++      real :: lai_yrmx
+       lai_yrmx = 0.
+ 
+       return
+-      end
+\ No newline at end of file
++      end

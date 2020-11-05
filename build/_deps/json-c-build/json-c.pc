@@ -1,0 +1,12 @@
+prefix=/home1/04950/dhl/local
+exec_prefix=/home1/04950/dhl/local
+libdir=/home1/04950/dhl/local/lib64
+includedir=/home1/04950/dhl/local/include
+
+Name: json-c
+Description: A JSON implementation in C
+Version: 0.15.99
+Requires:
+Libs.private: 
+Libs: -L${libdir} -ljson-c
+Cflags: -I${includedir} -I${includedir}/json-c

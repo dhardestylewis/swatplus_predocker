@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+3cfec39e7e98484355b75c22ea314744 CMakeFiles/json-c-populate
+03cde4f04d16bdd447e0bc17aa338189 CMakeFiles/json-c-populate-complete
+746f339181d6c505c4f835846c69ea9d json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-build
+386db8c76b47aaec1795797f93d7b2dd json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-configure
+4a0a4a61526582a357090d7b4880ee6d json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-download
+c925b1adab199ddbb4b6c5720a8790d0 json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-install
+1ae13f2b18f74a6f8960b19e69b9f275 json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-mkdir
+375f118e70d5bede9491ac9df821d7e0 json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-patch
+123b1d258eb833a6101404000b423c67 json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-test
+2ab78ea22e4433c3d8064186d3f88159 json-c-populate-prefix/src/json-c-populate-stamp/json-c-populate-update

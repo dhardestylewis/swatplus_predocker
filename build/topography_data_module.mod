@@ -1,0 +1,69 @@
+GFORTRAN module version '10' created from /scratch/04950/dhl/SWAT/swatplus_predocker/source_codes/topography_data_module.f90
+MD5:1109eb8ce31aa0d0675b1bf15b860265 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () () ()
+() () ())
+
+()
+
+(('fields_db' 'topography_data_module' 2) ('topography_db'
+'topography_data_module' 3))
+
+()
+
+()
+
+()
+
+(2 'Fields_db' 'topography_data_module' '' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 ((4 'name' (CHARACTER 1 0 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 0
+INTEGER ()) 0 '16'))) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) UNKNOWN-ACCESS (CONSTANT (CHARACTER 1 0 0 0 CHARACTER (()))
+0 16 'default         ')) (5 'length' (REAL 4 0 0 0 REAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0 REAL ()) 0 '0.1f40000@3')) (6 'wid'
+(REAL 4 0 0 0 REAL ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0 REAL ()) 0
+'0.6400000@2')) (7 'ang' (REAL 4 0 0 0 REAL ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS (
+CONSTANT (REAL 4 0 0 0 REAL ()) 0 '0.1e00000@2'))) PUBLIC (() () () ())
+() 0 0 33026508)
+3 'Topography_db' 'topography_data_module' '' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 ((8 'name' (CHARACTER 1 0 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 0
+INTEGER ()) 0 '16'))) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) UNKNOWN-ACCESS (CONSTANT (CHARACTER 1 0 0 0 CHARACTER (()))
+0 16 'default         ')) (9 'slope' (REAL 4 0 0 0 REAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0 REAL ()) 0 '0.51eb850@-1')) (10
+'slope_len' (REAL 4 0 0 0 REAL ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0
+REAL ()) 0 '0.3200000@2')) (11 'lat_len' (REAL 4 0 0 0 REAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0 REAL ()) 0 '0.3200000@2')) (12
+'dis_stream' (REAL 4 0 0 0 REAL ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0
+REAL ()) 0 '0.6400000@2')) (13 'dep_co' (REAL 4 0 0 0 REAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS (CONSTANT (REAL 4 0 0 0 REAL ()) 0 '0.1000000@1')))
+PUBLIC (() () () ()) () 0 0 53804544)
+14 'field_db' 'topography_data_module' '' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (DERIVED 2
+0 0 0 DERIVED ()) 0 0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+15 'fields_db' 'topography_data_module' '' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN 0 0 0 0 UNKNOWN
+()) 0 0 () () 0 () () () 0 0)
+16 'topo_db' 'topography_data_module' '' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (DERIVED 3
+0 0 0 DERIVED ()) 0 0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+17 'topography_data_module' 'topography_data_module' '' 1 ((MODULE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+18 'topography_db' 'topography_data_module' '' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC DECL UNKNOWN 0 0 FUNCTION GENERIC) (UNKNOWN
+0 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+)
+
+('Fields_db' 0 2 'Topography_db' 0 3 'field_db' 0 14 'fields_db' 0 15
+'topo_db' 0 16 'topography_data_module' 0 17 'topography_db' 0 18)

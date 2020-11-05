@@ -16,11 +16,12 @@
 
 !!    ~ ~ ~ ~ ~ ~ END SPECIFICATIONS ~ ~ ~ ~ ~ ~
 
-      use hru_module, only : lai_yrmx
+      !!use hru_module, only : lai_yrmx
       
       implicit none
 
       !! initialize variables/arrays at beginning of every year
+      real :: lai_yrmx
       lai_yrmx = 0.
 
       return

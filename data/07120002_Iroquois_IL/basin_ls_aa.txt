@@ -1,0 +1,4 @@
+ ceap_07120002             SWAT+ Jun 17  2020    MODULAR Rev 2020.60.4                                    
+   jday   mon   day    yr   unit  gis_id  name                 sedyld     sedorgn     sedorgp     surqno3     lat3no3    surqsolp        usle      sedmin     tileno3
+                                                                  tha        kgha        kgha        kgha        kgha        kgha        tons        ----        ----
+   365    12    31  2003       1       1  ceap_07120002          1.415       4.271       0.295       7.424       0.000       0.010       0.000       0.078       0.068

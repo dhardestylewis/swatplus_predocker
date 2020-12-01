@@ -1,0 +1,25 @@
+ files_out.out - OUTPUT FILES WRITTEN
+ OBJECT.PRT                two_stage.out             
+ HRU                       hru_wb_yr.txt
+ HRU                       hru_ls_mon.txt
+ HRU                       hru_pw_aa.txt
+ BASIN                     basin_wb_day.txt
+ BASIN                     basin_wb_aa.txt
+ BASIN                     basin_ls_yr.txt
+ BASIN                     basin_pw_mon.txt
+ CROP                      crop_yld_aa.txt
+ SWAT-DEG_CHANNEL          channel_sd_mon.txt
+ SWAT-DEG_CHANNEL          channel_sd_yr.txt
+ SWAT-DEG_CHANNEL          channel_sd_aa.txt
+ SWAT-DEG_CHANNEL_MORPH    channel_sdmorph_mon.txt
+ SWAT-DEG_CHANNEL_MORPH    channel_sdmorph_yr.txt
+ SWAT-DEG_CHANNEL_MORPH    channel_sdmorph_aa.txt
+ BASIN_CROP_YLD            basin_crop_yld_yr.txt
+ BASIN_CROP_YLD            basin_crop_yld_aa.txt
+ HRU_PATH                  hru_path_yr.txt
+ BASIN_SWAT_DEG_CHANNEL    basin_sd_cha_mon.txt
+ BASIN_SWAT_DEG_CHANNEL    basin_sd_cha_yr.txt
+ BASIN_SWAT_DEG_CHANNEL    basin_sd_cha_aa.txt
+ BASIN_SWAT_DEG_CHAN_MORPH basin_sd_chamorph_mon.txt
+ BASIN_SWAT_DEG_CHAN_MORPH basin_sd_chamorph_yr.txt
+ BASIN_SWAT_DEG_CHAN_MORPH basin_sd_chamorph_aa.txt

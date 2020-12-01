@@ -1,0 +1,17 @@
+--- ch_read_parms_cal.f90.orig	2020-11-05 17:01:37.000000000 -0600
++++ ch_read_parms_cal.f90	2020-11-05 17:02:21.000000000 -0600
+@@ -31,6 +31,7 @@
+         enddo
+        
+         do i = 1, mchp
++          write(*,*) "i=",i
+           read (107,*,iostat=eof) ch_prms(i)%name, ch_prms(i)%chg_typ, ch_prms(i)%neg, ch_prms(i)%pos, ch_prms(i)%lo, ch_prms(i)%up
+           if (eof < 0) exit 
+         end do 
+@@ -39,4 +40,4 @@
+       
+       close(107)
+       return
+-      end subroutine ch_read_parms_cal
+\ No newline at end of file
++      end subroutine ch_read_parms_cal

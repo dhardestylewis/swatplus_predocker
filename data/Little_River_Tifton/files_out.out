@@ -1,0 +1,17 @@
+ files_out.out - OUTPUT FILES WRITTEN
+ BASIN                     basin_wb_aa.txt
+ CROP                      crop_yld_aa.txt
+ AQUIFER                   aquifer_aa.txt
+ SWAT-DEG_CHANNEL          channel_sd_aa.txt
+ SWAT-DEG_CHANNEL_MORPH    channel_sdmorph_aa.txt
+ BASIN_CROP_YLD            basin_crop_yld_yr.txt
+ BASIN_CROP_YLD            basin_crop_yld_aa.txt
+ HYDOUT                    hydout_aa.txt
+ HYDIN                     hydin_aa.txt
+ DEPO                      deposition_aa.txt
+ RES                       reservoir_aa.txt
+ RES_WET                   wetland_aa.txt
+ BASIN_AQUIFER             basin_aqu_aa.txt
+ BASIN_RESERVOIR           basin_res_aa.txt
+ BASIN_SWAT_DEG_CHANNEL    basin_sd_cha_aa.txt
+ BASIN_SWAT_DEG_CHAN_MORPH basin_sd_chamorph_aa.txt

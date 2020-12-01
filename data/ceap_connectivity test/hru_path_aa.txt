@@ -1,0 +1,2 @@
+ ceap2                     SWAT+ Jun 17  2020    MODULAR Rev 2020.60.4                                    
+  jday   mon   day    yr    unit  gis_id  name            plant_kg/h    soil_kg/h    sed_kg/h   surq_kg/h   latq_kg/h   perc_kg/h  apply_kg/h  decay_kg/h 

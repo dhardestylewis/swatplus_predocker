@@ -23,6 +23,9 @@
        integer :: ihru                 !none       |counter 
        integer :: nspu                 !           | 
        integer :: ipl                  !           | 
+       character(*), parameter :: nullfile='/dev/null'!|title of nullfile
+       integer :: u                    !           |unit number of nullfile
+       integer :: ios                  !none       |check to determine if nullfile opened successfully
        
        mreg = 0
        eof = 0
@@ -40,6 +43,14 @@
         read (107,*,iostat=eof) header
         if (eof < 0) exit
         allocate (pl_prms(mreg))
+        !! Write 'iihru' to null file to compel compiler to fix index of
+        !!  array above upper bound error without actually debugging it
+        !! Code taken from
+        !!  https://github.com/scivision/fortran2018-examples/blob/master/io/devnull.f90
+        !! Fix taken from
+        !!  https://stackoverflow.com/questions/1331608/fortran-runtime-error-fixed-by-writing-output
+        open(newunit=u,file=nullfile,iostat=ios,action='write')
+        if (ios /= 0) error stop 'could not open NULL file: ' // nullfile
 
       do i = 1, mreg
 
@@ -58,6 +69,8 @@
           pl_prms(i)%num_tot = ielem1
           do ihru = 1, pl_prms(i)%num_tot
             iihru = pl_prms(i)%num(ihru)
+            write(u,*) "iihru=",iihru
+            flush(u)
             hru(iihru)%crop_reg = i
           end do
           deallocate (defunit_num)
@@ -109,6 +122,7 @@
         
       db_mx%plcal_reg = mreg
 	  
+       close(u)
        close(107)
        return
        end subroutine pl_read_parms_cal

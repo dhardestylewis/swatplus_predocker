@@ -31,6 +31,7 @@
         enddo
        
         do i = 1, mchp
+          write(*,*) "i=",i
           read (107,*,iostat=eof) ch_prms(i)%name, ch_prms(i)%chg_typ, ch_prms(i)%neg, ch_prms(i)%pos, ch_prms(i)%lo, ch_prms(i)%up
           if (eof < 0) exit 
         end do 

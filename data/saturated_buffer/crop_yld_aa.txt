@@ -1,0 +1,6 @@
+ 2_stage                   SWAT+ Jun 17  2020    MODULAR Rev 2020.60.4                                    
+                                                                            --YIELD (kg/ha)--
+  jday   mon   day    yr    unit PLANTNM                         MASS          C           N           P
+   365    12    31  2014       1    agrc                        0.000       0.000       0.000       0.000
+   365    12    31  2014       1    agrc                        0.000       0.000       0.000       0.000
+   365    12    31  2014       2    cang                        0.000       0.000       0.000       0.000

@@ -70,6 +70,7 @@
         if (eof < 0) exit
         if (nspu > 0) then
           backspace (107)
+          if( allocated(elem_cnt ) ) deallocate( elem_cnt )
           allocate (elem_cnt(nspu))
           read (107,*,iostat=eof) cal_upd(i)%name, cal_upd(i)%chg_typ, cal_upd(i)%val, cal_upd(i)%conds,    &
               cal_upd(i)%lyr1, cal_upd(i)%lyr2, cal_upd(i)%year1, cal_upd(i)%year2, cal_upd(i)%day1,        &

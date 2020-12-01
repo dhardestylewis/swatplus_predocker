@@ -15,7 +15,7 @@ Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/u
 Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccZcXwlI.f90 -quiet -v CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/4.8.5/finclude -o /tmp/ccTLNXRq.s
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccaB8MZz.f90 -quiet -v CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/4.8.5/finclude -o /tmp/ccOzIMXY.s
 GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
 warning: GMP header version 6.0.0 differs from library version 6.1.2.
@@ -36,7 +36,7 @@ warning: GMP header version 6.0.0 differs from library version 6.1.2.
 warning: MPC header version 1.0.1 differs from library version 1.1.0.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o /tmp/ccvT5lt9.o /tmp/ccTLNXRq.s
+ as -v --64 -o /tmp/cc45MxYn.o /tmp/ccOzIMXY.s
 GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
 Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgfortran.spec
 rename spec lib to liborig
@@ -44,7 +44,7 @@ COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. /tmp/ccvT5lt9.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. /tmp/cc45MxYn.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 
 
 Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
@@ -54,13 +54,13 @@ The Fortran compiler identification is GNU, found in "/scratch/04950/dhl/SWAT/sw
 Determining if the Fortran compiler works passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_8aaf8/fast && /bin/gmake -f CMakeFiles/cmTC_8aaf8.dir/build.make CMakeFiles/cmTC_8aaf8.dir/build
+Run Build Command(s):/bin/gmake cmTC_02cd6/fast && /bin/gmake -f CMakeFiles/cmTC_02cd6.dir/build.make CMakeFiles/cmTC_02cd6.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_8aaf8.dir/testFortranCompiler.f.o
-/bin/f95    -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_8aaf8.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_8aaf8
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aaf8.dir/link.txt --verbose=1
-/bin/f95      CMakeFiles/cmTC_8aaf8.dir/testFortranCompiler.f.o  -o cmTC_8aaf8 
+Building Fortran object CMakeFiles/cmTC_02cd6.dir/testFortranCompiler.f.o
+/bin/f95    -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_02cd6.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_02cd6
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02cd6.dir/link.txt --verbose=1
+/bin/f95      CMakeFiles/cmTC_02cd6.dir/testFortranCompiler.f.o  -o cmTC_02cd6 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,18 +68,18 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Detecting Fortran compiler ABI info compiled with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_337d8/fast && /bin/gmake -f CMakeFiles/cmTC_337d8.dir/build.make CMakeFiles/cmTC_337d8.dir/build
+Run Build Command(s):/bin/gmake cmTC_ccfdd/fast && /bin/gmake -f CMakeFiles/cmTC_ccfdd.dir/build.make CMakeFiles/cmTC_ccfdd.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o
-/bin/f95   -v -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o
+Building Fortran object CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o
+/bin/f95   -v -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o
 Using built-in specs.
 COLLECT_GCC=/bin/f95
 Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
 Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/f951 /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccIieu0g.f90 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/4.8.5/finclude -o /tmp/ccona5O0.s
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/f951 /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccIQ63OW.f90 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/4.8.5/finclude -o /tmp/cc2Fda6r.s
 GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
 warning: GMP header version 6.0.0 differs from library version 6.1.2.
@@ -99,16 +99,16 @@ GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux
 warning: GMP header version 6.0.0 differs from library version 6.1.2.
 warning: MPC header version 1.0.1 differs from library version 1.1.0.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o /tmp/ccona5O0.s
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o /tmp/cc2Fda6r.s
 GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
-Linking Fortran executable cmTC_337d8
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_337d8.dir/link.txt --verbose=1
-/bin/f95   -v   CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o  -o cmTC_337d8 
-Driving: /bin/f95 -v CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o -o cmTC_337d8 -l gfortran -l m -shared-libgcc
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
+Linking Fortran executable cmTC_ccfdd
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfdd.dir/link.txt --verbose=1
+/bin/f95   -v   CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o  -o cmTC_ccfdd 
+Driving: /bin/f95 -v CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o -o cmTC_ccfdd -l gfortran -l m -shared-libgcc
 Using built-in specs.
 COLLECT_GCC=/bin/f95
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -118,11 +118,11 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
 Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_337d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccfdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_337d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_337d8 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccfdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ccfdd /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -146,18 +146,18 @@ Parsed Fortran implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/bin/gmake cmTC_337d8/fast && /bin/gmake -f CMakeFiles/cmTC_337d8.dir/build.make CMakeFiles/cmTC_337d8.dir/build]
+  ignore line: [Run Build Command(s):/bin/gmake cmTC_ccfdd/fast && /bin/gmake -f CMakeFiles/cmTC_ccfdd.dir/build.make CMakeFiles/cmTC_ccfdd.dir/build]
   ignore line: [gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building Fortran object CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [/bin/f95   -v -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Building Fortran object CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/bin/f95   -v -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/f95]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/f951 /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccIieu0g.f90 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/4.8.5/finclude -o /tmp/ccona5O0.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/f951 /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccIQ63OW.f90 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/4.8.5/finclude -o /tmp/cc2Fda6r.s]
   ignore line: [GNU Fortran (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
   ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
@@ -177,16 +177,16 @@ Parsed Fortran implicit link information from above output:
   ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
   ignore line: [warning: MPC header version 1.0.1 differs from library version 1.1.0.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o /tmp/ccona5O0.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o /tmp/cc2Fda6r.s]
   ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
   ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking Fortran executable cmTC_337d8]
-  ignore line: [/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_337d8.dir/link.txt --verbose=1]
-  ignore line: [/bin/f95   -v   CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o  -o cmTC_337d8 ]
-  ignore line: [Driving: /bin/f95 -v CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o -o cmTC_337d8 -l gfortran -l m -shared-libgcc]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking Fortran executable cmTC_ccfdd]
+  ignore line: [/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfdd.dir/link.txt --verbose=1]
+  ignore line: [/bin/f95   -v   CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o  -o cmTC_ccfdd ]
+  ignore line: [Driving: /bin/f95 -v CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o -o cmTC_ccfdd -l gfortran -l m -shared-libgcc]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/f95]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -196,11 +196,11 @@ Parsed Fortran implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgfortran.spec]
   ignore line: [rename spec lib to liborig]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_337d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccfdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_337d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_337d8 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ccfdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ccfdd /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -211,7 +211,7 @@ Parsed Fortran implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_337d8] ==> ignore
+    arg [cmTC_ccfdd] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -220,7 +220,7 @@ Parsed Fortran implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_337d8.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [CMakeFiles/cmTC_ccfdd.dir/CMakeFortranCompilerABI.F.o] ==> ignore
     arg [-lgfortran] ==> lib [gfortran]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -247,13 +247,13 @@ Parsed Fortran implicit link information from above output:
 Determining if the Fortran compiler supports Fortran 90 passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_081f1/fast && /bin/gmake -f CMakeFiles/cmTC_081f1.dir/build.make CMakeFiles/cmTC_081f1.dir/build
+Run Build Command(s):/bin/gmake cmTC_b6928/fast && /bin/gmake -f CMakeFiles/cmTC_b6928.dir/build.make CMakeFiles/cmTC_b6928.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_081f1.dir/testFortranCompilerF90.f90.o
-/bin/f95    -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_081f1.dir/testFortranCompilerF90.f90.o
-Linking Fortran executable cmTC_081f1
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_081f1.dir/link.txt --verbose=1
-/bin/f95      CMakeFiles/cmTC_081f1.dir/testFortranCompilerF90.f90.o  -o cmTC_081f1 
+Building Fortran object CMakeFiles/cmTC_b6928.dir/testFortranCompilerF90.f90.o
+/bin/f95    -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_b6928.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_b6928
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6928.dir/link.txt --verbose=1
+/bin/f95      CMakeFiles/cmTC_b6928.dir/testFortranCompilerF90.f90.o  -o cmTC_b6928 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -287,13 +287,13 @@ The CXX compiler identification is GNU, found in "/scratch/04950/dhl/SWAT/swatpl
 Determining if the C compiler works passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_560db/fast && /bin/gmake -f CMakeFiles/cmTC_560db.dir/build.make CMakeFiles/cmTC_560db.dir/build
+Run Build Command(s):/bin/gmake cmTC_97cd9/fast && /bin/gmake -f CMakeFiles/cmTC_97cd9.dir/build.make CMakeFiles/cmTC_97cd9.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_560db.dir/testCCompiler.c.o
-/bin/cc    -o CMakeFiles/cmTC_560db.dir/testCCompiler.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_560db
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_560db.dir/link.txt --verbose=1
-/bin/cc      CMakeFiles/cmTC_560db.dir/testCCompiler.c.o  -o cmTC_560db 
+Building C object CMakeFiles/cmTC_97cd9.dir/testCCompiler.c.o
+/bin/cc    -o CMakeFiles/cmTC_97cd9.dir/testCCompiler.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_97cd9
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97cd9.dir/link.txt --verbose=1
+/bin/cc      CMakeFiles/cmTC_97cd9.dir/testCCompiler.c.o  -o cmTC_97cd9 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -301,18 +301,18 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_2563b/fast && /bin/gmake -f CMakeFiles/cmTC_2563b.dir/build.make CMakeFiles/cmTC_2563b.dir/build
+Run Build Command(s):/bin/gmake cmTC_c8af0/fast && /bin/gmake -f CMakeFiles/cmTC_c8af0.dir/build.make CMakeFiles/cmTC_c8af0.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o
-/bin/cc   -v -o CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o   -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o
+/bin/cc   -v -o CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o   -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/bin/cc
 Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
 Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc01v6Vg.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccWV6NGU.s
 GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
 warning: GMP header version 6.0.0 differs from library version 6.1.2.
@@ -332,15 +332,15 @@ warning: GMP header version 6.0.0 differs from library version 6.1.2.
 warning: MPC header version 1.0.1 differs from library version 1.1.0.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 592abcad67b46aec035d56e51f71d007
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o /tmp/cc01v6Vg.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o /tmp/ccWV6NGU.s
 GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_2563b
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2563b.dir/link.txt --verbose=1
-/bin/cc     -v CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o  -o cmTC_2563b 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_c8af0
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8af0.dir/link.txt --verbose=1
+/bin/cc     -v CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o  -o cmTC_c8af0 
 Using built-in specs.
 COLLECT_GCC=/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -350,8 +350,8 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2563b' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2563b /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8af0' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c8af0 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -373,18 +373,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/bin/gmake cmTC_2563b/fast && /bin/gmake -f CMakeFiles/cmTC_2563b.dir/build.make CMakeFiles/cmTC_2563b.dir/build]
+  ignore line: [Run Build Command(s):/bin/gmake cmTC_c8af0/fast && /bin/gmake -f CMakeFiles/cmTC_c8af0.dir/build.make CMakeFiles/cmTC_c8af0.dir/build]
   ignore line: [gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/bin/cc   -v -o CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o   -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/cc   -v -o CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o   -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/cc]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc01v6Vg.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccWV6NGU.s]
   ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
   ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
@@ -404,15 +404,15 @@ Parsed C implicit link information from above output:
   ignore line: [warning: MPC header version 1.0.1 differs from library version 1.1.0.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 592abcad67b46aec035d56e51f71d007]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o /tmp/cc01v6Vg.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o /tmp/ccWV6NGU.s]
   ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
   ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_2563b]
-  ignore line: [/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2563b.dir/link.txt --verbose=1]
-  ignore line: [/bin/cc     -v CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o  -o cmTC_2563b ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_c8af0]
+  ignore line: [/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8af0.dir/link.txt --verbose=1]
+  ignore line: [/bin/cc     -v CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o  -o cmTC_c8af0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -422,8 +422,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2563b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2563b /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8af0' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c8af0 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -434,7 +434,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2563b] ==> ignore
+    arg [cmTC_c8af0] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -443,7 +443,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_2563b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c8af0.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -468,13 +468,13 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_e7b52/fast && /bin/gmake -f CMakeFiles/cmTC_e7b52.dir/build.make CMakeFiles/cmTC_e7b52.dir/build
+Run Build Command(s):/bin/gmake cmTC_6c6db/fast && /bin/gmake -f CMakeFiles/cmTC_6c6db.dir/build.make CMakeFiles/cmTC_6c6db.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e7b52.dir/testCXXCompiler.cxx.o
-/bin/c++     -o CMakeFiles/cmTC_e7b52.dir/testCXXCompiler.cxx.o -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e7b52
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b52.dir/link.txt --verbose=1
-/bin/c++       CMakeFiles/cmTC_e7b52.dir/testCXXCompiler.cxx.o  -o cmTC_e7b52 
+Building CXX object CMakeFiles/cmTC_6c6db.dir/testCXXCompiler.cxx.o
+/bin/c++     -o CMakeFiles/cmTC_6c6db.dir/testCXXCompiler.cxx.o -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6c6db
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c6db.dir/link.txt --verbose=1
+/bin/c++       CMakeFiles/cmTC_6c6db.dir/testCXXCompiler.cxx.o  -o cmTC_6c6db 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -482,18 +482,18 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_fb032/fast && /bin/gmake -f CMakeFiles/cmTC_fb032.dir/build.make CMakeFiles/cmTC_fb032.dir/build
+Run Build Command(s):/bin/gmake cmTC_770e4/fast && /bin/gmake -f CMakeFiles/cmTC_770e4.dir/build.make CMakeFiles/cmTC_770e4.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o
-/bin/c++    -v -o CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o
+/bin/c++    -v -o CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/bin/c++
 Target: x86_64-redhat-linux
 Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
 Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccIunq7L.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccxDrjKC.s
 GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
 warning: GMP header version 6.0.0 differs from library version 6.1.2.
@@ -516,15 +516,15 @@ warning: GMP header version 6.0.0 differs from library version 6.1.2.
 warning: MPC header version 1.0.1 differs from library version 1.1.0.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 9340310b160f8e0621cdd942e42cc106
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIunq7L.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxDrjKC.s
 GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_fb032
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb032.dir/link.txt --verbose=1
-/bin/c++      -v CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fb032 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_770e4
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770e4.dir/link.txt --verbose=1
+/bin/c++      -v CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_770e4 
 Using built-in specs.
 COLLECT_GCC=/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -534,8 +534,8 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
 COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb032' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fb032 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_770e4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_770e4 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,18 +563,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/bin/gmake cmTC_fb032/fast && /bin/gmake -f CMakeFiles/cmTC_fb032.dir/build.make CMakeFiles/cmTC_fb032.dir/build]
+  ignore line: [Run Build Command(s):/bin/gmake cmTC_770e4/fast && /bin/gmake -f CMakeFiles/cmTC_770e4.dir/build.make CMakeFiles/cmTC_770e4.dir/build]
   ignore line: [gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/bin/c++    -v -o CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/c++    -v -o CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/c++]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccIunq7L.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/apps/cmake/3.16.1/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccxDrjKC.s]
   ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-36) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-36)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
   ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
@@ -597,15 +597,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [warning: MPC header version 1.0.1 differs from library version 1.1.0.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 9340310b160f8e0621cdd942e42cc106]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIunq7L.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxDrjKC.s]
   ignore line: [GNU assembler version 2.32 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.32]
   ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_fb032]
-  ignore line: [/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb032.dir/link.txt --verbose=1]
-  ignore line: [/bin/c++      -v CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fb032 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_770e4]
+  ignore line: [/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770e4.dir/link.txt --verbose=1]
+  ignore line: [/bin/c++      -v CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_770e4 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -615,8 +615,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb032' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fb032 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_770e4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_770e4 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -627,7 +627,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fb032] ==> ignore
+    arg [cmTC_770e4] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -636,7 +636,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_fb032.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_770e4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -661,13 +661,13 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_99b7a/fast && /bin/gmake -f CMakeFiles/cmTC_99b7a.dir/build.make CMakeFiles/cmTC_99b7a.dir/build
+Run Build Command(s):/bin/gmake cmTC_19c8f/fast && /bin/gmake -f CMakeFiles/cmTC_19c8f.dir/build.make CMakeFiles/cmTC_19c8f.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_99b7a.dir/feature_tests.cxx.o
-/bin/c++    -std=c++1y -o CMakeFiles/cmTC_99b7a.dir/feature_tests.cxx.o -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_99b7a
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b7a.dir/link.txt --verbose=1
-/bin/c++       CMakeFiles/cmTC_99b7a.dir/feature_tests.cxx.o  -o cmTC_99b7a 
+Building CXX object CMakeFiles/cmTC_19c8f.dir/feature_tests.cxx.o
+/bin/c++    -std=c++1y -o CMakeFiles/cmTC_19c8f.dir/feature_tests.cxx.o -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19c8f
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19c8f.dir/link.txt --verbose=1
+/bin/c++       CMakeFiles/cmTC_19c8f.dir/feature_tests.cxx.o  -o cmTC_19c8f 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -732,13 +732,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file sys/resource.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_5d6ce/fast && /bin/gmake -f CMakeFiles/cmTC_5d6ce.dir/build.make CMakeFiles/cmTC_5d6ce.dir/build
+Run Build Command(s):/bin/gmake cmTC_9e864/fast && /bin/gmake -f CMakeFiles/cmTC_9e864.dir/build.make CMakeFiles/cmTC_9e864.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5d6ce.dir/CheckIncludeFile.c.o
-/bin/cc    -o CMakeFiles/cmTC_5d6ce.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5d6ce
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d6ce.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_5d6ce.dir/CheckIncludeFile.c.o  -o cmTC_5d6ce 
+Building C object CMakeFiles/cmTC_9e864.dir/CheckIncludeFile.c.o
+/bin/cc    -o CMakeFiles/cmTC_9e864.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9e864
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e864.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_9e864.dir/CheckIncludeFile.c.o  -o cmTC_9e864 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -746,13 +746,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the getrusage exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_db387/fast && /bin/gmake -f CMakeFiles/cmTC_db387.dir/build.make CMakeFiles/cmTC_db387.dir/build
+Run Build Command(s):/bin/gmake cmTC_8767c/fast && /bin/gmake -f CMakeFiles/cmTC_8767c.dir/build.make CMakeFiles/cmTC_8767c.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db387.dir/CheckSymbolExists.c.o
-/bin/cc    -o CMakeFiles/cmTC_db387.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_db387
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db387.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_db387.dir/CheckSymbolExists.c.o  -o cmTC_db387 
+Building C object CMakeFiles/cmTC_8767c.dir/CheckSymbolExists.c.o
+/bin/cc    -o CMakeFiles/cmTC_8767c.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8767c
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8767c.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_8767c.dir/CheckSymbolExists.c.o  -o cmTC_8767c 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -773,13 +773,13 @@ int main(int argc, char** argv)
 Determining if the include file fcntl.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_cf7c9/fast && /bin/gmake -f CMakeFiles/cmTC_cf7c9.dir/build.make CMakeFiles/cmTC_cf7c9.dir/build
+Run Build Command(s):/bin/gmake cmTC_901b9/fast && /bin/gmake -f CMakeFiles/cmTC_901b9.dir/build.make CMakeFiles/cmTC_901b9.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf7c9.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_cf7c9.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_cf7c9
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf7c9.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_cf7c9.dir/CheckIncludeFile.c.o  -o cmTC_cf7c9  -lm 
+Building C object CMakeFiles/cmTC_901b9.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_901b9.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_901b9
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_901b9.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_901b9.dir/CheckIncludeFile.c.o  -o cmTC_901b9  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -787,13 +787,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file inttypes.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_2fe92/fast && /bin/gmake -f CMakeFiles/cmTC_2fe92.dir/build.make CMakeFiles/cmTC_2fe92.dir/build
+Run Build Command(s):/bin/gmake cmTC_8eef9/fast && /bin/gmake -f CMakeFiles/cmTC_8eef9.dir/build.make CMakeFiles/cmTC_8eef9.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2fe92.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_2fe92.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_2fe92
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe92.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_2fe92.dir/CheckIncludeFile.c.o  -o cmTC_2fe92  -lm 
+Building C object CMakeFiles/cmTC_8eef9.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_8eef9.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8eef9
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eef9.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_8eef9.dir/CheckIncludeFile.c.o  -o cmTC_8eef9  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -801,13 +801,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file stdarg.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_83a45/fast && /bin/gmake -f CMakeFiles/cmTC_83a45.dir/build.make CMakeFiles/cmTC_83a45.dir/build
+Run Build Command(s):/bin/gmake cmTC_7179b/fast && /bin/gmake -f CMakeFiles/cmTC_7179b.dir/build.make CMakeFiles/cmTC_7179b.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83a45.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_83a45.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_83a45
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a45.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_83a45.dir/CheckIncludeFile.c.o  -o cmTC_83a45  -lm 
+Building C object CMakeFiles/cmTC_7179b.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7179b.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7179b
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7179b.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_7179b.dir/CheckIncludeFile.c.o  -o cmTC_7179b  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -815,13 +815,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file strings.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_c650e/fast && /bin/gmake -f CMakeFiles/cmTC_c650e.dir/build.make CMakeFiles/cmTC_c650e.dir/build
+Run Build Command(s):/bin/gmake cmTC_30dbd/fast && /bin/gmake -f CMakeFiles/cmTC_30dbd.dir/build.make CMakeFiles/cmTC_30dbd.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c650e.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_c650e.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_c650e
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c650e.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_c650e.dir/CheckIncludeFile.c.o  -o cmTC_c650e  -lm 
+Building C object CMakeFiles/cmTC_30dbd.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_30dbd.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30dbd
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30dbd.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_30dbd.dir/CheckIncludeFile.c.o  -o cmTC_30dbd  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -829,13 +829,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file string.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_511eb/fast && /bin/gmake -f CMakeFiles/cmTC_511eb.dir/build.make CMakeFiles/cmTC_511eb.dir/build
+Run Build Command(s):/bin/gmake cmTC_d9020/fast && /bin/gmake -f CMakeFiles/cmTC_d9020.dir/build.make CMakeFiles/cmTC_d9020.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_511eb.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_511eb.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_511eb
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_511eb.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_511eb.dir/CheckIncludeFile.c.o  -o cmTC_511eb  -lm 
+Building C object CMakeFiles/cmTC_d9020.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d9020.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d9020
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9020.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_d9020.dir/CheckIncludeFile.c.o  -o cmTC_d9020  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -843,13 +843,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file syslog.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_364f6/fast && /bin/gmake -f CMakeFiles/cmTC_364f6.dir/build.make CMakeFiles/cmTC_364f6.dir/build
+Run Build Command(s):/bin/gmake cmTC_34bcb/fast && /bin/gmake -f CMakeFiles/cmTC_34bcb.dir/build.make CMakeFiles/cmTC_34bcb.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_364f6.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_364f6.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_364f6
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_364f6.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_364f6.dir/CheckIncludeFile.c.o  -o cmTC_364f6  -lm 
+Building C object CMakeFiles/cmTC_34bcb.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_34bcb.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_34bcb
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34bcb.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_34bcb.dir/CheckIncludeFile.c.o  -o cmTC_34bcb  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -857,13 +857,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_8d62d/fast && /bin/gmake -f CMakeFiles/cmTC_8d62d.dir/build.make CMakeFiles/cmTC_8d62d.dir/build
+Run Build Command(s):/bin/gmake cmTC_e247f/fast && /bin/gmake -f CMakeFiles/cmTC_e247f.dir/build.make CMakeFiles/cmTC_e247f.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d62d.dir/STDC_HEADERS.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_8d62d.dir/STDC_HEADERS.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
-Linking C executable cmTC_8d62d
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d62d.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_8d62d.dir/STDC_HEADERS.c.o  -o cmTC_8d62d  -lm 
+Building C object CMakeFiles/cmTC_e247f.dir/STDC_HEADERS.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e247f.dir/STDC_HEADERS.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_e247f
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e247f.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_e247f.dir/STDC_HEADERS.c.o  -o cmTC_e247f  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -871,13 +871,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_253c2/fast && /bin/gmake -f CMakeFiles/cmTC_253c2.dir/build.make CMakeFiles/cmTC_253c2.dir/build
+Run Build Command(s):/bin/gmake cmTC_d373a/fast && /bin/gmake -f CMakeFiles/cmTC_d373a.dir/build.make CMakeFiles/cmTC_d373a.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_253c2.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_253c2.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_253c2
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_253c2.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_253c2.dir/CheckIncludeFile.c.o  -o cmTC_253c2  -lm 
+Building C object CMakeFiles/cmTC_d373a.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d373a.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d373a
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d373a.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_d373a.dir/CheckIncludeFile.c.o  -o cmTC_d373a  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -885,13 +885,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_edf7e/fast && /bin/gmake -f CMakeFiles/cmTC_edf7e.dir/build.make CMakeFiles/cmTC_edf7e.dir/build
+Run Build Command(s):/bin/gmake cmTC_d4611/fast && /bin/gmake -f CMakeFiles/cmTC_d4611.dir/build.make CMakeFiles/cmTC_d4611.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_edf7e.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_edf7e.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_edf7e
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edf7e.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_edf7e.dir/CheckIncludeFile.c.o  -o cmTC_edf7e  -lm 
+Building C object CMakeFiles/cmTC_d4611.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d4611.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4611
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4611.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_d4611.dir/CheckIncludeFile.c.o  -o cmTC_d4611  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -899,13 +899,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file dlfcn.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_5221c/fast && /bin/gmake -f CMakeFiles/cmTC_5221c.dir/build.make CMakeFiles/cmTC_5221c.dir/build
+Run Build Command(s):/bin/gmake cmTC_bf1a0/fast && /bin/gmake -f CMakeFiles/cmTC_bf1a0.dir/build.make CMakeFiles/cmTC_bf1a0.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5221c.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5221c.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5221c
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5221c.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_5221c.dir/CheckIncludeFile.c.o  -o cmTC_5221c  -lm 
+Building C object CMakeFiles/cmTC_bf1a0.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_bf1a0.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bf1a0
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf1a0.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_bf1a0.dir/CheckIncludeFile.c.o  -o cmTC_bf1a0  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -913,13 +913,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file endian.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_b363e/fast && /bin/gmake -f CMakeFiles/cmTC_b363e.dir/build.make CMakeFiles/cmTC_b363e.dir/build
+Run Build Command(s):/bin/gmake cmTC_d5155/fast && /bin/gmake -f CMakeFiles/cmTC_d5155.dir/build.make CMakeFiles/cmTC_d5155.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b363e.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b363e.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b363e
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b363e.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_b363e.dir/CheckIncludeFile.c.o  -o cmTC_b363e  -lm 
+Building C object CMakeFiles/cmTC_d5155.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d5155.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d5155
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5155.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_d5155.dir/CheckIncludeFile.c.o  -o cmTC_d5155  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -927,13 +927,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file limits.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_cfec2/fast && /bin/gmake -f CMakeFiles/cmTC_cfec2.dir/build.make CMakeFiles/cmTC_cfec2.dir/build
+Run Build Command(s):/bin/gmake cmTC_56366/fast && /bin/gmake -f CMakeFiles/cmTC_56366.dir/build.make CMakeFiles/cmTC_56366.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cfec2.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_cfec2.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_cfec2
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfec2.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_cfec2.dir/CheckIncludeFile.c.o  -o cmTC_cfec2  -lm 
+Building C object CMakeFiles/cmTC_56366.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_56366.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_56366
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56366.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_56366.dir/CheckIncludeFile.c.o  -o cmTC_56366  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -941,13 +941,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file locale.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_7ec70/fast && /bin/gmake -f CMakeFiles/cmTC_7ec70.dir/build.make CMakeFiles/cmTC_7ec70.dir/build
+Run Build Command(s):/bin/gmake cmTC_45306/fast && /bin/gmake -f CMakeFiles/cmTC_45306.dir/build.make CMakeFiles/cmTC_45306.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ec70.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7ec70.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_7ec70
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ec70.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_7ec70.dir/CheckIncludeFile.c.o  -o cmTC_7ec70  -lm 
+Building C object CMakeFiles/cmTC_45306.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_45306.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45306
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45306.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_45306.dir/CheckIncludeFile.c.o  -o cmTC_45306  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -955,13 +955,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file memory.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_db81d/fast && /bin/gmake -f CMakeFiles/cmTC_db81d.dir/build.make CMakeFiles/cmTC_db81d.dir/build
+Run Build Command(s):/bin/gmake cmTC_475aa/fast && /bin/gmake -f CMakeFiles/cmTC_475aa.dir/build.make CMakeFiles/cmTC_475aa.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db81d.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_db81d.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_db81d
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db81d.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_db81d.dir/CheckIncludeFile.c.o  -o cmTC_db81d  -lm 
+Building C object CMakeFiles/cmTC_475aa.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_475aa.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_475aa
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475aa.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_475aa.dir/CheckIncludeFile.c.o  -o cmTC_475aa  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -969,13 +969,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_6b8f7/fast && /bin/gmake -f CMakeFiles/cmTC_6b8f7.dir/build.make CMakeFiles/cmTC_6b8f7.dir/build
+Run Build Command(s):/bin/gmake cmTC_e9d89/fast && /bin/gmake -f CMakeFiles/cmTC_e9d89.dir/build.make CMakeFiles/cmTC_e9d89.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b8f7.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_6b8f7.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_6b8f7
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b8f7.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_6b8f7.dir/CheckIncludeFile.c.o  -o cmTC_6b8f7  -lm 
+Building C object CMakeFiles/cmTC_e9d89.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e9d89.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9d89
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d89.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_e9d89.dir/CheckIncludeFile.c.o  -o cmTC_e9d89  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -983,13 +983,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file stdlib.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_cd502/fast && /bin/gmake -f CMakeFiles/cmTC_cd502.dir/build.make CMakeFiles/cmTC_cd502.dir/build
+Run Build Command(s):/bin/gmake cmTC_f8c3b/fast && /bin/gmake -f CMakeFiles/cmTC_f8c3b.dir/build.make CMakeFiles/cmTC_f8c3b.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd502.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_cd502.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_cd502
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd502.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_cd502.dir/CheckIncludeFile.c.o  -o cmTC_cd502  -lm 
+Building C object CMakeFiles/cmTC_f8c3b.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f8c3b.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f8c3b
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8c3b.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_f8c3b.dir/CheckIncludeFile.c.o  -o cmTC_f8c3b  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -997,13 +997,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file sys/cdefs.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_68238/fast && /bin/gmake -f CMakeFiles/cmTC_68238.dir/build.make CMakeFiles/cmTC_68238.dir/build
+Run Build Command(s):/bin/gmake cmTC_c3b52/fast && /bin/gmake -f CMakeFiles/cmTC_c3b52.dir/build.make CMakeFiles/cmTC_c3b52.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_68238.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_68238.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_68238
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68238.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_68238.dir/CheckIncludeFile.c.o  -o cmTC_68238  -lm 
+Building C object CMakeFiles/cmTC_c3b52.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_c3b52.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c3b52
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3b52.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_c3b52.dir/CheckIncludeFile.c.o  -o cmTC_c3b52  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1011,13 +1011,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file sys/param.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_e86c8/fast && /bin/gmake -f CMakeFiles/cmTC_e86c8.dir/build.make CMakeFiles/cmTC_e86c8.dir/build
+Run Build Command(s):/bin/gmake cmTC_0e9b4/fast && /bin/gmake -f CMakeFiles/cmTC_0e9b4.dir/build.make CMakeFiles/cmTC_0e9b4.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e86c8.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e86c8.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e86c8
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e86c8.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_e86c8.dir/CheckIncludeFile.c.o  -o cmTC_e86c8  -lm 
+Building C object CMakeFiles/cmTC_0e9b4.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_0e9b4.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e9b4
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e9b4.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_0e9b4.dir/CheckIncludeFile.c.o  -o cmTC_0e9b4  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1025,13 +1025,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file sys/stat.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_65274/fast && /bin/gmake -f CMakeFiles/cmTC_65274.dir/build.make CMakeFiles/cmTC_65274.dir/build
+Run Build Command(s):/bin/gmake cmTC_aba5c/fast && /bin/gmake -f CMakeFiles/cmTC_aba5c.dir/build.make CMakeFiles/cmTC_aba5c.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65274.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_65274.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_65274
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65274.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_65274.dir/CheckIncludeFile.c.o  -o cmTC_65274  -lm 
+Building C object CMakeFiles/cmTC_aba5c.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_aba5c.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aba5c
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba5c.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_aba5c.dir/CheckIncludeFile.c.o  -o cmTC_aba5c  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1039,13 +1039,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the include file xlocale.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_81490/fast && /bin/gmake -f CMakeFiles/cmTC_81490.dir/build.make CMakeFiles/cmTC_81490.dir/build
+Run Build Command(s):/bin/gmake cmTC_1f933/fast && /bin/gmake -f CMakeFiles/cmTC_1f933.dir/build.make CMakeFiles/cmTC_1f933.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81490.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_81490.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_81490
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81490.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_81490.dir/CheckIncludeFile.c.o  -o cmTC_81490  -lm 
+Building C object CMakeFiles/cmTC_1f933.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_1f933.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1f933
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f933.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_1f933.dir/CheckIncludeFile.c.o  -o cmTC_1f933  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1053,13 +1053,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining if the INFINITY exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_d64c4/fast && /bin/gmake -f CMakeFiles/cmTC_d64c4.dir/build.make CMakeFiles/cmTC_d64c4.dir/build
+Run Build Command(s):/bin/gmake cmTC_cc463/fast && /bin/gmake -f CMakeFiles/cmTC_cc463.dir/build.make CMakeFiles/cmTC_cc463.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d64c4.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d64c4.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d64c4
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d64c4.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_d64c4.dir/CheckSymbolExists.c.o  -o cmTC_d64c4  -lm 
+Building C object CMakeFiles/cmTC_cc463.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_cc463.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc463
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc463.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_cc463.dir/CheckSymbolExists.c.o  -o cmTC_cc463  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1080,13 +1080,13 @@ int main(int argc, char** argv)
 Determining if the isinf exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_9579e/fast && /bin/gmake -f CMakeFiles/cmTC_9579e.dir/build.make CMakeFiles/cmTC_9579e.dir/build
+Run Build Command(s):/bin/gmake cmTC_eae1f/fast && /bin/gmake -f CMakeFiles/cmTC_eae1f.dir/build.make CMakeFiles/cmTC_eae1f.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9579e.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_9579e.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9579e
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9579e.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_9579e.dir/CheckSymbolExists.c.o  -o cmTC_9579e  -lm 
+Building C object CMakeFiles/cmTC_eae1f.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_eae1f.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eae1f
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae1f.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_eae1f.dir/CheckSymbolExists.c.o  -o cmTC_eae1f  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1107,13 +1107,13 @@ int main(int argc, char** argv)
 Determining if the isnan exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_843eb/fast && /bin/gmake -f CMakeFiles/cmTC_843eb.dir/build.make CMakeFiles/cmTC_843eb.dir/build
+Run Build Command(s):/bin/gmake cmTC_cfd0d/fast && /bin/gmake -f CMakeFiles/cmTC_cfd0d.dir/build.make CMakeFiles/cmTC_cfd0d.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_843eb.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_843eb.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_843eb
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_843eb.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_843eb.dir/CheckSymbolExists.c.o  -o cmTC_843eb  -lm 
+Building C object CMakeFiles/cmTC_cfd0d.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_cfd0d.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cfd0d
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd0d.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_cfd0d.dir/CheckSymbolExists.c.o  -o cmTC_cfd0d  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1134,13 +1134,13 @@ int main(int argc, char** argv)
 Determining if the nan exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_eb0e9/fast && /bin/gmake -f CMakeFiles/cmTC_eb0e9.dir/build.make CMakeFiles/cmTC_eb0e9.dir/build
+Run Build Command(s):/bin/gmake cmTC_ecd4b/fast && /bin/gmake -f CMakeFiles/cmTC_ecd4b.dir/build.make CMakeFiles/cmTC_ecd4b.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb0e9.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_eb0e9.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_eb0e9
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb0e9.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_eb0e9.dir/CheckSymbolExists.c.o  -o cmTC_eb0e9  -lm 
+Building C object CMakeFiles/cmTC_ecd4b.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_ecd4b.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ecd4b
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd4b.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_ecd4b.dir/CheckSymbolExists.c.o  -o cmTC_ecd4b  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1161,13 +1161,13 @@ int main(int argc, char** argv)
 Determining if the snprintf exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_7051f/fast && /bin/gmake -f CMakeFiles/cmTC_7051f.dir/build.make CMakeFiles/cmTC_7051f.dir/build
+Run Build Command(s):/bin/gmake cmTC_7d33d/fast && /bin/gmake -f CMakeFiles/cmTC_7d33d.dir/build.make CMakeFiles/cmTC_7d33d.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7051f.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7051f.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_7051f
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7051f.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_7051f.dir/CheckSymbolExists.c.o  -o cmTC_7051f  -lm 
+Building C object CMakeFiles/cmTC_7d33d.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7d33d.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7d33d
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d33d.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_7d33d.dir/CheckSymbolExists.c.o  -o cmTC_7d33d  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1188,13 +1188,13 @@ int main(int argc, char** argv)
 Determining if the vasprintf exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_a89b2/fast && /bin/gmake -f CMakeFiles/cmTC_a89b2.dir/build.make CMakeFiles/cmTC_a89b2.dir/build
+Run Build Command(s):/bin/gmake cmTC_e478c/fast && /bin/gmake -f CMakeFiles/cmTC_e478c.dir/build.make CMakeFiles/cmTC_e478c.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a89b2.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a89b2.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_a89b2
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a89b2.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_a89b2.dir/CheckSymbolExists.c.o  -o cmTC_a89b2  -lm 
+Building C object CMakeFiles/cmTC_e478c.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e478c.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e478c
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e478c.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_e478c.dir/CheckSymbolExists.c.o  -o cmTC_e478c  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1215,13 +1215,13 @@ int main(int argc, char** argv)
 Determining if the vsnprintf exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_383df/fast && /bin/gmake -f CMakeFiles/cmTC_383df.dir/build.make CMakeFiles/cmTC_383df.dir/build
+Run Build Command(s):/bin/gmake cmTC_93394/fast && /bin/gmake -f CMakeFiles/cmTC_93394.dir/build.make CMakeFiles/cmTC_93394.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_383df.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_383df.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_383df
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_383df.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_383df.dir/CheckSymbolExists.c.o  -o cmTC_383df  -lm 
+Building C object CMakeFiles/cmTC_93394.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_93394.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_93394
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93394.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_93394.dir/CheckSymbolExists.c.o  -o cmTC_93394  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1242,13 +1242,13 @@ int main(int argc, char** argv)
 Determining if the vprintf exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_bd6be/fast && /bin/gmake -f CMakeFiles/cmTC_bd6be.dir/build.make CMakeFiles/cmTC_bd6be.dir/build
+Run Build Command(s):/bin/gmake cmTC_752b0/fast && /bin/gmake -f CMakeFiles/cmTC_752b0.dir/build.make CMakeFiles/cmTC_752b0.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd6be.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_bd6be.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_bd6be
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd6be.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_bd6be.dir/CheckSymbolExists.c.o  -o cmTC_bd6be  -lm 
+Building C object CMakeFiles/cmTC_752b0.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_752b0.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_752b0
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_752b0.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_752b0.dir/CheckSymbolExists.c.o  -o cmTC_752b0  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1269,13 +1269,13 @@ int main(int argc, char** argv)
 Determining if the open exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_29615/fast && /bin/gmake -f CMakeFiles/cmTC_29615.dir/build.make CMakeFiles/cmTC_29615.dir/build
+Run Build Command(s):/bin/gmake cmTC_b3b65/fast && /bin/gmake -f CMakeFiles/cmTC_b3b65.dir/build.make CMakeFiles/cmTC_b3b65.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29615.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_29615.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_29615
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29615.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_29615.dir/CheckSymbolExists.c.o  -o cmTC_29615  -lm 
+Building C object CMakeFiles/cmTC_b3b65.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b3b65.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3b65
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3b65.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_b3b65.dir/CheckSymbolExists.c.o  -o cmTC_b3b65  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1296,13 +1296,13 @@ int main(int argc, char** argv)
 Determining if the realloc exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_81777/fast && /bin/gmake -f CMakeFiles/cmTC_81777.dir/build.make CMakeFiles/cmTC_81777.dir/build
+Run Build Command(s):/bin/gmake cmTC_f2d75/fast && /bin/gmake -f CMakeFiles/cmTC_f2d75.dir/build.make CMakeFiles/cmTC_f2d75.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81777.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_81777.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_81777
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81777.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_81777.dir/CheckSymbolExists.c.o  -o cmTC_81777  -lm 
+Building C object CMakeFiles/cmTC_f2d75.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_f2d75.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f2d75
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2d75.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_f2d75.dir/CheckSymbolExists.c.o  -o cmTC_f2d75  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1323,13 +1323,13 @@ int main(int argc, char** argv)
 Determining if the setlocale exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_d2b5d/fast && /bin/gmake -f CMakeFiles/cmTC_d2b5d.dir/build.make CMakeFiles/cmTC_d2b5d.dir/build
+Run Build Command(s):/bin/gmake cmTC_9916e/fast && /bin/gmake -f CMakeFiles/cmTC_9916e.dir/build.make CMakeFiles/cmTC_9916e.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2b5d.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d2b5d.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d2b5d
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2b5d.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_d2b5d.dir/CheckSymbolExists.c.o  -o cmTC_d2b5d  -lm 
+Building C object CMakeFiles/cmTC_9916e.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_9916e.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9916e
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9916e.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_9916e.dir/CheckSymbolExists.c.o  -o cmTC_9916e  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1350,13 +1350,13 @@ int main(int argc, char** argv)
 Determining if the uselocale exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_af3bd/fast && /bin/gmake -f CMakeFiles/cmTC_af3bd.dir/build.make CMakeFiles/cmTC_af3bd.dir/build
+Run Build Command(s):/bin/gmake cmTC_ebda7/fast && /bin/gmake -f CMakeFiles/cmTC_ebda7.dir/build.make CMakeFiles/cmTC_ebda7.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_af3bd.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_af3bd.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_af3bd
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af3bd.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_af3bd.dir/CheckSymbolExists.c.o  -o cmTC_af3bd  -lm 
+Building C object CMakeFiles/cmTC_ebda7.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_ebda7.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ebda7
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebda7.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_ebda7.dir/CheckSymbolExists.c.o  -o cmTC_ebda7  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1377,13 +1377,13 @@ int main(int argc, char** argv)
 Determining if the strcasecmp exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_b4ab6/fast && /bin/gmake -f CMakeFiles/cmTC_b4ab6.dir/build.make CMakeFiles/cmTC_b4ab6.dir/build
+Run Build Command(s):/bin/gmake cmTC_a5d2e/fast && /bin/gmake -f CMakeFiles/cmTC_a5d2e.dir/build.make CMakeFiles/cmTC_a5d2e.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b4ab6.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b4ab6.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b4ab6
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4ab6.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_b4ab6.dir/CheckSymbolExists.c.o  -o cmTC_b4ab6  -lm 
+Building C object CMakeFiles/cmTC_a5d2e.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a5d2e.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a5d2e
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d2e.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_a5d2e.dir/CheckSymbolExists.c.o  -o cmTC_a5d2e  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1404,13 +1404,13 @@ int main(int argc, char** argv)
 Determining if the strncasecmp exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_164e0/fast && /bin/gmake -f CMakeFiles/cmTC_164e0.dir/build.make CMakeFiles/cmTC_164e0.dir/build
+Run Build Command(s):/bin/gmake cmTC_7fb5a/fast && /bin/gmake -f CMakeFiles/cmTC_7fb5a.dir/build.make CMakeFiles/cmTC_7fb5a.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_164e0.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_164e0.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_164e0
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_164e0.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_164e0.dir/CheckSymbolExists.c.o  -o cmTC_164e0  -lm 
+Building C object CMakeFiles/cmTC_7fb5a.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_7fb5a.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7fb5a
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fb5a.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_7fb5a.dir/CheckSymbolExists.c.o  -o cmTC_7fb5a  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1431,13 +1431,13 @@ int main(int argc, char** argv)
 Determining if the strdup exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_141ae/fast && /bin/gmake -f CMakeFiles/cmTC_141ae.dir/build.make CMakeFiles/cmTC_141ae.dir/build
+Run Build Command(s):/bin/gmake cmTC_617b0/fast && /bin/gmake -f CMakeFiles/cmTC_617b0.dir/build.make CMakeFiles/cmTC_617b0.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_141ae.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_141ae.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_141ae
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_141ae.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_141ae.dir/CheckSymbolExists.c.o  -o cmTC_141ae  -lm 
+Building C object CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_617b0
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_617b0.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_617b0.dir/CheckSymbolExists.c.o  -o cmTC_617b0  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1458,13 +1458,13 @@ int main(int argc, char** argv)
 Determining if the strerror exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_cc311/fast && /bin/gmake -f CMakeFiles/cmTC_cc311.dir/build.make CMakeFiles/cmTC_cc311.dir/build
+Run Build Command(s):/bin/gmake cmTC_a1fb4/fast && /bin/gmake -f CMakeFiles/cmTC_a1fb4.dir/build.make CMakeFiles/cmTC_a1fb4.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc311.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_cc311.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_cc311
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc311.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_cc311.dir/CheckSymbolExists.c.o  -o cmTC_cc311  -lm 
+Building C object CMakeFiles/cmTC_a1fb4.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a1fb4.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a1fb4
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1fb4.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_a1fb4.dir/CheckSymbolExists.c.o  -o cmTC_a1fb4  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1485,13 +1485,13 @@ int main(int argc, char** argv)
 Determining if the vsyslog exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_5b3bd/fast && /bin/gmake -f CMakeFiles/cmTC_5b3bd.dir/build.make CMakeFiles/cmTC_5b3bd.dir/build
+Run Build Command(s):/bin/gmake cmTC_ce068/fast && /bin/gmake -f CMakeFiles/cmTC_ce068.dir/build.make CMakeFiles/cmTC_ce068.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5b3bd.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5b3bd.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_5b3bd
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b3bd.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_5b3bd.dir/CheckSymbolExists.c.o  -o cmTC_5b3bd  -lm 
+Building C object CMakeFiles/cmTC_ce068.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_ce068.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce068
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce068.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_ce068.dir/CheckSymbolExists.c.o  -o cmTC_ce068  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1512,13 +1512,13 @@ int main(int argc, char** argv)
 Determining if the strtoll exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_ce3a9/fast && /bin/gmake -f CMakeFiles/cmTC_ce3a9.dir/build.make CMakeFiles/cmTC_ce3a9.dir/build
+Run Build Command(s):/bin/gmake cmTC_5fdff/fast && /bin/gmake -f CMakeFiles/cmTC_5fdff.dir/build.make CMakeFiles/cmTC_5fdff.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ce3a9.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_ce3a9.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_ce3a9
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce3a9.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_ce3a9.dir/CheckSymbolExists.c.o  -o cmTC_ce3a9  -lm 
+Building C object CMakeFiles/cmTC_5fdff.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5fdff.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5fdff
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fdff.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_5fdff.dir/CheckSymbolExists.c.o  -o cmTC_5fdff  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1539,13 +1539,13 @@ int main(int argc, char** argv)
 Determining if the strtoull exist passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_bbc64/fast && /bin/gmake -f CMakeFiles/cmTC_bbc64.dir/build.make CMakeFiles/cmTC_bbc64.dir/build
+Run Build Command(s):/bin/gmake cmTC_1508d/fast && /bin/gmake -f CMakeFiles/cmTC_1508d.dir/build.make CMakeFiles/cmTC_1508d.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bbc64.dir/CheckSymbolExists.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_bbc64.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_bbc64
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbc64.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_bbc64.dir/CheckSymbolExists.c.o  -o cmTC_bbc64  -lm 
+Building C object CMakeFiles/cmTC_1508d.dir/CheckSymbolExists.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_1508d.dir/CheckSymbolExists.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1508d
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1508d.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_1508d.dir/CheckSymbolExists.c.o  -o cmTC_1508d  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1566,13 +1566,13 @@ int main(int argc, char** argv)
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_18e70/fast && /bin/gmake -f CMakeFiles/cmTC_18e70.dir/build.make CMakeFiles/cmTC_18e70.dir/build
+Run Build Command(s):/bin/gmake cmTC_e030c/fast && /bin/gmake -f CMakeFiles/cmTC_e030c.dir/build.make CMakeFiles/cmTC_e030c.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_18e70.dir/CheckIncludeFile.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_18e70.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_18e70
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18e70.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_18e70.dir/CheckIncludeFile.c.o  -o cmTC_18e70  -lm 
+Building C object CMakeFiles/cmTC_e030c.dir/CheckIncludeFile.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e030c.dir/CheckIncludeFile.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e030c
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e030c.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_e030c.dir/CheckIncludeFile.c.o  -o cmTC_e030c  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1580,13 +1580,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining size of int passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_8b9ce/fast && /bin/gmake -f CMakeFiles/cmTC_8b9ce.dir/build.make CMakeFiles/cmTC_8b9ce.dir/build
+Run Build Command(s):/bin/gmake cmTC_51e38/fast && /bin/gmake -f CMakeFiles/cmTC_51e38.dir/build.make CMakeFiles/cmTC_51e38.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8b9ce.dir/SIZEOF_INT.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_8b9ce.dir/SIZEOF_INT.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
-Linking C executable cmTC_8b9ce
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b9ce.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_8b9ce.dir/SIZEOF_INT.c.o  -o cmTC_8b9ce  -lm 
+Building C object CMakeFiles/cmTC_51e38.dir/SIZEOF_INT.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_51e38.dir/SIZEOF_INT.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_51e38
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e38.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_51e38.dir/SIZEOF_INT.c.o  -o cmTC_51e38  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1594,13 +1594,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining size of int64_t passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_86c19/fast && /bin/gmake -f CMakeFiles/cmTC_86c19.dir/build.make CMakeFiles/cmTC_86c19.dir/build
+Run Build Command(s):/bin/gmake cmTC_5dba2/fast && /bin/gmake -f CMakeFiles/cmTC_5dba2.dir/build.make CMakeFiles/cmTC_5dba2.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86c19.dir/SIZEOF_INT64_T.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_86c19.dir/SIZEOF_INT64_T.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
-Linking C executable cmTC_86c19
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86c19.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_86c19.dir/SIZEOF_INT64_T.c.o  -o cmTC_86c19  -lm 
+Building C object CMakeFiles/cmTC_5dba2.dir/SIZEOF_INT64_T.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_5dba2.dir/SIZEOF_INT64_T.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_5dba2
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dba2.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_5dba2.dir/SIZEOF_INT64_T.c.o  -o cmTC_5dba2  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1608,13 +1608,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining size of long passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_186ac/fast && /bin/gmake -f CMakeFiles/cmTC_186ac.dir/build.make CMakeFiles/cmTC_186ac.dir/build
+Run Build Command(s):/bin/gmake cmTC_bac87/fast && /bin/gmake -f CMakeFiles/cmTC_bac87.dir/build.make CMakeFiles/cmTC_bac87.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_186ac.dir/SIZEOF_LONG.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_186ac.dir/SIZEOF_LONG.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
-Linking C executable cmTC_186ac
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_186ac.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_186ac.dir/SIZEOF_LONG.c.o  -o cmTC_186ac  -lm 
+Building C object CMakeFiles/cmTC_bac87.dir/SIZEOF_LONG.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_bac87.dir/SIZEOF_LONG.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_bac87
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bac87.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_bac87.dir/SIZEOF_LONG.c.o  -o cmTC_bac87  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1622,13 +1622,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining size of long long passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_14c6f/fast && /bin/gmake -f CMakeFiles/cmTC_14c6f.dir/build.make CMakeFiles/cmTC_14c6f.dir/build
+Run Build Command(s):/bin/gmake cmTC_6d16c/fast && /bin/gmake -f CMakeFiles/cmTC_6d16c.dir/build.make CMakeFiles/cmTC_6d16c.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14c6f.dir/SIZEOF_LONG_LONG.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_14c6f.dir/SIZEOF_LONG_LONG.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
-Linking C executable cmTC_14c6f
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14c6f.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_14c6f.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_14c6f  -lm 
+Building C object CMakeFiles/cmTC_6d16c.dir/SIZEOF_LONG_LONG.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_6d16c.dir/SIZEOF_LONG_LONG.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_6d16c
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d16c.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_6d16c.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_6d16c  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1636,13 +1636,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining size of size_t passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_d6355/fast && /bin/gmake -f CMakeFiles/cmTC_d6355.dir/build.make CMakeFiles/cmTC_d6355.dir/build
+Run Build Command(s):/bin/gmake cmTC_b31ac/fast && /bin/gmake -f CMakeFiles/cmTC_b31ac.dir/build.make CMakeFiles/cmTC_b31ac.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6355.dir/SIZEOF_SIZE_T.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d6355.dir/SIZEOF_SIZE_T.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
-Linking C executable cmTC_d6355
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6355.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_d6355.dir/SIZEOF_SIZE_T.c.o  -o cmTC_d6355  -lm 
+Building C object CMakeFiles/cmTC_b31ac.dir/SIZEOF_SIZE_T.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b31ac.dir/SIZEOF_SIZE_T.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_b31ac
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b31ac.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_b31ac.dir/SIZEOF_SIZE_T.c.o  -o cmTC_b31ac  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1650,13 +1650,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Determining size of ssize_t passed with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_fc737/fast && /bin/gmake -f CMakeFiles/cmTC_fc737.dir/build.make CMakeFiles/cmTC_fc737.dir/build
+Run Build Command(s):/bin/gmake cmTC_099ba/fast && /bin/gmake -f CMakeFiles/cmTC_099ba.dir/build.make CMakeFiles/cmTC_099ba.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc737.dir/SIZEOF_SSIZE_T.c.o
-/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_fc737.dir/SIZEOF_SSIZE_T.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
-Linking C executable cmTC_fc737
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc737.dir/link.txt --verbose=1
-/bin/cc      -rdynamic CMakeFiles/cmTC_fc737.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_fc737  -lm 
+Building C object CMakeFiles/cmTC_099ba.dir/SIZEOF_SSIZE_T.c.o
+/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_099ba.dir/SIZEOF_SSIZE_T.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_099ba
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_099ba.dir/link.txt --verbose=1
+/bin/cc      -rdynamic CMakeFiles/cmTC_099ba.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_099ba  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1664,13 +1664,13 @@ gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CM
 Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_3cb79/fast && /bin/gmake -f CMakeFiles/cmTC_3cb79.dir/build.make CMakeFiles/cmTC_3cb79.dir/build
+Run Build Command(s):/bin/gmake cmTC_2be9a/fast && /bin/gmake -f CMakeFiles/cmTC_2be9a.dir/build.make CMakeFiles/cmTC_2be9a.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3cb79.dir/src.c.o
-/bin/cc -D_GNU_SOURCE  -DHAVE_ATOMIC_BUILTINS -fPIE   -o CMakeFiles/cmTC_3cb79.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_3cb79
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb79.dir/link.txt --verbose=1
-/bin/cc  -DHAVE_ATOMIC_BUILTINS    -rdynamic CMakeFiles/cmTC_3cb79.dir/src.c.o  -o cmTC_3cb79  -lm 
+Building C object CMakeFiles/cmTC_2be9a.dir/src.c.o
+/bin/cc -D_GNU_SOURCE  -DHAVE_ATOMIC_BUILTINS -fPIE   -o CMakeFiles/cmTC_2be9a.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2be9a
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be9a.dir/link.txt --verbose=1
+/bin/cc  -DHAVE_ATOMIC_BUILTINS    -rdynamic CMakeFiles/cmTC_2be9a.dir/src.c.o  -o cmTC_2be9a  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1679,13 +1679,13 @@ int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
 Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_6eac7/fast && /bin/gmake -f CMakeFiles/cmTC_6eac7.dir/build.make CMakeFiles/cmTC_6eac7.dir/build
+Run Build Command(s):/bin/gmake cmTC_db521/fast && /bin/gmake -f CMakeFiles/cmTC_db521.dir/build.make CMakeFiles/cmTC_db521.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6eac7.dir/src.c.o
-/bin/cc -D_GNU_SOURCE  -DHAVE___THREAD -fPIE   -o CMakeFiles/cmTC_6eac7.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_6eac7
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eac7.dir/link.txt --verbose=1
-/bin/cc  -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_6eac7.dir/src.c.o  -o cmTC_6eac7  -lm 
+Building C object CMakeFiles/cmTC_db521.dir/src.c.o
+/bin/cc -D_GNU_SOURCE  -DHAVE___THREAD -fPIE   -o CMakeFiles/cmTC_db521.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_db521
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db521.dir/link.txt --verbose=1
+/bin/cc  -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_db521.dir/src.c.o  -o cmTC_db521  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1694,13 +1694,13 @@ __thread int x = 0; int main() { return 0; }
 Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_aaaac/fast && /bin/gmake -f CMakeFiles/cmTC_aaaac.dir/build.make CMakeFiles/cmTC_aaaac.dir/build
+Run Build Command(s):/bin/gmake cmTC_a814e/fast && /bin/gmake -f CMakeFiles/cmTC_a814e.dir/build.make CMakeFiles/cmTC_a814e.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aaaac.dir/src.c.o
-/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS -fPIE   -o CMakeFiles/cmTC_aaaac.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_aaaac
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaaac.dir/link.txt --verbose=1
-/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS    -rdynamic CMakeFiles/cmTC_aaaac.dir/src.c.o  -o cmTC_aaaac  -lm 
+Building C object CMakeFiles/cmTC_a814e.dir/src.c.o
+/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS -fPIE   -o CMakeFiles/cmTC_a814e.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a814e
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a814e.dir/link.txt --verbose=1
+/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS    -rdynamic CMakeFiles/cmTC_a814e.dir/src.c.o  -o cmTC_a814e  -lm 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1717,13 +1717,13 @@ Source file was:
 Performing C SOURCE FILE Test BSYMBOLIC_WORKS succeeded with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_073fd/fast && /bin/gmake -f CMakeFiles/cmTC_073fd.dir/build.make CMakeFiles/cmTC_073fd.dir/build
+Run Build Command(s):/bin/gmake cmTC_df748/fast && /bin/gmake -f CMakeFiles/cmTC_df748.dir/build.make CMakeFiles/cmTC_df748.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_073fd.dir/src.c.o
-/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS -fPIE   -o CMakeFiles/cmTC_073fd.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_073fd
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_073fd.dir/link.txt --verbose=1
-/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS    -rdynamic CMakeFiles/cmTC_073fd.dir/src.c.o  -o cmTC_073fd  -lm -Wl,-Bsymbolic-functions 
+Building C object CMakeFiles/cmTC_df748.dir/src.c.o
+/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS -fPIE   -o CMakeFiles/cmTC_df748.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df748
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df748.dir/link.txt --verbose=1
+/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS    -rdynamic CMakeFiles/cmTC_df748.dir/src.c.o  -o cmTC_df748  -lm -Wl,-Bsymbolic-functions 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 
@@ -1737,13 +1737,13 @@ Source file was:
 Performing C SOURCE FILE Test VERSION_SCRIPT_WORKS succeeded with the following output:
 Change Dir: /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/bin/gmake cmTC_725e4/fast && /bin/gmake -f CMakeFiles/cmTC_725e4.dir/build.make CMakeFiles/cmTC_725e4.dir/build
+Run Build Command(s):/bin/gmake cmTC_22bc1/fast && /bin/gmake -f CMakeFiles/cmTC_22bc1.dir/build.make CMakeFiles/cmTC_22bc1.dir/build
 gmake[1]: Entering directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_725e4.dir/src.c.o
-/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DVERSION_SCRIPT_WORKS -fPIE   -o CMakeFiles/cmTC_725e4.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_725e4
-/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_725e4.dir/link.txt --verbose=1
-/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DVERSION_SCRIPT_WORKS    -rdynamic CMakeFiles/cmTC_725e4.dir/src.c.o  -o cmTC_725e4  -lm -Wl,--version-script,/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-build/check-version-script.sym 
+Building C object CMakeFiles/cmTC_22bc1.dir/src.c.o
+/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DVERSION_SCRIPT_WORKS -fPIE   -o CMakeFiles/cmTC_22bc1.dir/src.c.o   -c /scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22bc1
+/opt/apps/cmake/3.16.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22bc1.dir/link.txt --verbose=1
+/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DVERSION_SCRIPT_WORKS    -rdynamic CMakeFiles/cmTC_22bc1.dir/src.c.o  -o cmTC_22bc1  -lm -Wl,--version-script,/scratch/04950/dhl/SWAT/swatplus_predocker/build/_deps/json-c-build/check-version-script.sym 
 gmake[1]: Leaving directory `/scratch/04950/dhl/SWAT/swatplus_predocker/build/CMakeFiles/CMakeTmp'
 
 

@@ -1,0 +1,5 @@
+ hru1                      SWAT+ Jun 17  2020    MODULAR Rev 2020.60.4                                    
+       year     plant_no   plant_name       harv_area(ha)    yld(t)         yld(t/ha)      
+        2002           1 frse               0.00000000       0.00000000       0.00000000    
+        2002           2 rngb               0.00000000       0.00000000       0.00000000    
+        2002           3 rnge               0.00000000       0.00000000       0.00000000    

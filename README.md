@@ -9,6 +9,12 @@ This repository is a fork of the official SWAT+ one available [here](https://bit
 
 We will always try to keep this repostitory as up to date as possible compared to the main SWAT+ code. Pull requests are welcome!
 
+## Differences specific to this `develop` branch
+
+* `cal_parmchg_read.f90` has been updated to pass a unit test against one of the `data` examples (more details forthcoming)
+* `ch_read_parms_cal.f90` has been updated to pass a unit test against one of the `data` examples (more details forthcoming)
+* `pl_read_parms_cal.f90` has been updated to pass a unit test against one of the `data` examples (more details forthcoming)
+
 ## How to compile
 
 To compile SWAT+ yourself:

@@ -6,8 +6,11 @@ This repository is a fork of the official SWAT+ one available [here](https://bit
 * `proc_allo.f90` and `ru_allo.f90` are broken and have been removed as modules, as the simplest way to successfully compile and run the code
 * `CMakeLists.txt` has been shamelessly stolen from @joelz575 [swatplus repository](https://github.com/joelz575/swatplus/blob/master/src/CMakeLists.txt)
 * This release has only been tested on CentOS and Ubuntu Linux
+* This branch, `main`, has been unit-tested only against `data/TxtInOut_CoonCreek_aqu`
 
 We will always try to keep this repostitory as up to date as possible compared to the main SWAT+ code. Pull requests are welcome!
+
+*Please see the `develop` branch for a version of SWAT+ that succeeds against more input variants.
 
 ## How to compile
 

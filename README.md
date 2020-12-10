@@ -35,5 +35,5 @@ If you have trouble compiling and installing SWAT+, you may refer to this [Docke
 
 ## Testing information
 
-This code has been successfully compiled and run under Ubuntu 20.04.1 LTS (Focal Fossa) using GNU Fortran 9.3.0 and g++ 9.3.0. A full compilation procedure may be followed at this [SWAT+ Docker image repository](https://github.com/dhardestylewis/swatplus_docker).
+This code has been successfully compiled and run under Ubuntu 20.04.1 LTS (Focal Fossa) using GNU Fortran 9.3.0 and g++ 9.3.0. A full compilation procedure may be followed at this [SWAT+ Docker image repository](https://github.com/dhardestylewis/swatplus_docker/blob/main/Dockerfile).
 

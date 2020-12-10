@@ -5,6 +5,7 @@ Shamelessly stolen from [todo.md](https://raw.githubusercontent.com/todomd/todo.
 
 - [ ] Create `README.md` describing exactly how this fork differs from the original SWAT+
 - [ ] Create SWAT Docker, Dockerfile, GitHub
+- [ ] Document individually unit-testing results for each example in `data`
 
 ### In Progress
 

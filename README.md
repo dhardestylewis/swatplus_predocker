@@ -32,3 +32,8 @@ cmake --build . --target install
 `libjson-c` may not be installed until you attempt to build and install SWAT+ using `cmake`. If that's the case, simply repeat the steps of the 2nd codeblock above, substituting the newly intalled location of libjson-c in LD_LIBRARY_PATH
 
 If you have trouble compiling and installing SWAT+, you may refer to this [Dockerfile](https://hub.docker.com/r/dhardestylewis/swatplus_docker/dockerfile).
+
+## Testing information
+
+This code has been successfully compiled and run under Ubuntu 20.04.1 LTS (Focal Fossa) using GNU Fortran 9.3.0 and g++ 9.3.0. A full compilation procedure may be followed at this [SWAT+ Docker image repository](https://github.com/dhardestylewis/swatplus_docker).
+
